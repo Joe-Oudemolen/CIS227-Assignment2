@@ -10,6 +10,6 @@
 #include <string>
 #include "Assignment2.h"
 
-std::string Show::getWord(int userInput) {
-	return Show::sWords[userInput -1];
+std::string Show::getWord(int iUserInput) {
+	return Show::sWords[iUserInput -1];
 }
