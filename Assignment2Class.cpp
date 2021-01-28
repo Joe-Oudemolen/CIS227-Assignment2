@@ -11,5 +11,5 @@
 #include "Assignment2.h"
 
 std::string Show::getWord(int userInput) {
-	return Show::sWords[userInput];
+	return Show::sWords[userInput -1];
 }
